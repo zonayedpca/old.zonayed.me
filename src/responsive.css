@@ -1,0 +1,177 @@
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    .interest-card {
+        padding: 30px 20px;
+    }
+
+    .portfolio-desc h4 {
+        height: 60px;
+        overflow: hidden;
+    }
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    body {
+        font-size: 16px;
+    }
+
+    p {
+        font-weight: 400;
+    }
+
+    .intro p:before,
+    .intro p:after {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0;
+        border: none;
+        color: #6c5ce7;
+        padding: 10px 15px;
+        box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        border: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active:after {
+        content: "";
+        position: relative;
+        background: #fff;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        margin-left: 15px;
+        border-radius: 50%;
+    }
+
+    .skill-card h3 span {
+        font-weight: 400;
+    }
+
+    .portfolio-desc {
+        padding: 15px;
+    }
+
+    .portfolio-desc h4 {
+        height: initial;
+    }
+
+    .portfolio-desc h4 a {
+        font-size: 0.7em;
+    }
+
+    .portfolio-desc p {
+        display: none;
+    }
+
+    .portfolio-desc .portfolio-details li {
+        font-size: 1em;
+    }
+
+    .contact-area .contact-map {
+        margin-bottom: 50px;
+    }
+
+    .foot-thanks {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .about,
+    .contact {
+        text-align: center;
+    }
+
+    .portfolio-card {
+        max-width: 410px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portfolio-desc {
+        padding: 20px 25px;
+    }
+
+    .portfolio-desc h4 a {
+        font-size: 1em;
+    }
+
+    .contact-area #form-messages {
+        display: block;
+        margin-top: 15px;
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    body {
+        font-size: 15px;
+    }
+
+    .section-pad {
+        padding: 100px 0;
+    }
+
+    .section-padding-less {
+        padding-bottom: calc(100px - 30px);
+    }
+
+    .intro h1 {
+        font-size: 1.5em;
+    }
+
+    .scroll-down a {
+        font-size: 1em;
+    }
+
+    .scroll-down a:before,
+    .scroll-down a:after {
+        width: 3px;
+        left: calc(50% - 2px);
+    }
+
+    .navbar {
+        padding: 20px 15px;
+    }
+
+    .navbar-light .brand-name {
+        display: none;
+    }
+
+    .btn-about {
+        margin: 10px;
+    }
+
+    .nav-center ul.nav li {
+        display: inline-block;
+        float: none;
+    }
+
+    .skills-area .nav-pills .nav-link, .portfolio-area .nav-pills .nav-link {
+        padding: 0 5px;
+    }
+
+    .foot-thanks li {
+        margin-bottom: 10px;
+    }
+}
