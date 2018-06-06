@@ -19,25 +19,17 @@ class ContactMe extends Component {
                   <div className="col-lg-6 col-md-12">
                       <div className="contact">
                           <h3 className="text-uppercase"><strong>Contact</strong> Me</h3>
-                              <form id="ajax-contact" action="assets/php/mailer.php" method="POST">
-                                  <div className="form-row">
-                                      <div className="form-group col-md-6">
-                                          <input name="fName" type="text" className="form-control" id="fName" placeholder="First Name" />
-                                      </div>
-                                      <div className="form-group col-md-6">
-                                          <input name="lName" type="text" className="form-control" id="lName" placeholder="Last Name" />
-                                      </div>
-                                  </div>
-                                  <div className="form-group">
-                                      <input name="em" type="email" className="form-control" id="em" placeholder="Email" />
-                                  </div>
-                                  <div className="form-group">
-                                      <textarea name="message" className="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-                                  </div>
-                                  <button type="submit" className="btn btn-about"><i className="fab fa-telegram-plane"></i> Send Message</button>
-                                  {/**<!-- Submit Status -->**/}
-                                  <span id="form-messages">All fields required</span>
-                              </form>
+                          <p>If you want to contact me <strong>Email</strong> is always a good medium to connect with me</p>
+                          <dl>
+                            <dt>Email</dt>
+                            <dd>zonayedpca@yahoo.com <span className="text-muted">(Recommended)</span></dd>
+                            <dt>Skype</dt>
+                            <dd>zonayedpca <span className="text-muted">(Always available)</span></dd>
+                            <dt>Phone</dt>
+                            <dd>+8801814274346 / +8801842274346 <span className="text-muted">(May not be available always)</span></dd>
+                            <dt>Social</dt>
+                            <dd>Facebook/Twitter - @zonayedpca <span className="text-muted">(Slow response)</span></dd>
+                          </dl>
                       </div>
                   </div>
               </div>

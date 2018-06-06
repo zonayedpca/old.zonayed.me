@@ -1,11 +1,11 @@
 import React from 'react';
 
-const InterestedCard = ({data: {title, description, link}}) => {
+const InterestedCard = ({data: {title, image, description, link}}) => {
   return (
     <div className="col-lg-3 col-md-6">
         <div className="interest-card">
             <div className="interest-title">
-                <span className="interest-icon"><img src="assets/img/interest/electric-guitar.svg" alt="" /></span>
+                <span className="interest-icon"><img src={image} alt="" /></span>
                 <h4>{title}</h4>
             </div>
             <div className="interest-content">
