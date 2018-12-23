@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const InterestedCard = ({data: {title, image, description, link}}) => {
   return (
@@ -12,7 +13,7 @@ const InterestedCard = ({data: {title, image, description, link}}) => {
                 <p>{description}</p>
             </div>
             <div className="interest-btn">
-                <a className="btn btn-interest" target={link ? "_blank" : ""} data-scroll="smooth" href={link ? link : "#contact"}>Suggest me</a>
+                <AnchorLink offset="100" className="btn btn-interest" target={link ? "_blank" : ""} data-scroll="smooth" href={link ? link : "#contact"}>Suggest me</AnchorLink>
             </div>
         </div>
     </div>

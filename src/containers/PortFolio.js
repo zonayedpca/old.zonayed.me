@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import Loader from '../components/Loader';
 import MenuBar from '../components/MenuBar';
 import Portfolio from '../components/Portfolio';
 import Footer from '../components/Footer';
@@ -26,7 +27,7 @@ class PortFolio extends Component {
     const data = this.state.data;
 
     if(!data) {
-      return <h1>Loading</h1>
+      return <Loader text="See What I've Done" />
     }
     return (
       <React.Fragment>

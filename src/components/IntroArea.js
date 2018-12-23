@@ -31,6 +31,7 @@ const IntroArea = () => {
                                 <li className="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/zonayedpca"><i className="fab fa-twitter"></i></a></li>
                                 <li className="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/zonayedpca"><i className="fab fa-linkedin-in"></i></a></li>
                                 <li className="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.github.com/zonayedpca"><i className="fab fa-github-alt"></i></a></li>
+                                <li className="list-inline-item"><a target="_blank" rel="noopener noreferrer" href="https://www.medium.com/@zonayedpca"><i className="fab fa-medium"></i></a></li>
                             </ul>
                             <span className="scroll-down">
                                 <AnchorLink offset={100} href="#about"><i className="fas fa-long-arrow-alt-down"></i></AnchorLink>

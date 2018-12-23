@@ -26,7 +26,7 @@ class ContactMe extends Component {
                             <dt>Skype</dt>
                             <dd>zonayedpca <span className="text-muted">(Always available)</span></dd>
                             <dt>Phone</dt>
-                            <dd>+8801814274346 / +8801842274346 <span className="text-muted">(May not be available always)</span></dd>
+                            <dd>+8801814274346 <span className="text-muted">(Bangladesh)</span> / +917347075818 <span className="text-muted">(India)</span></dd>
                             <dt>Social</dt>
                             <dd>Facebook/Twitter - @zonayedpca <span className="text-muted">(Slow response)</span></dd>
                           </dl>

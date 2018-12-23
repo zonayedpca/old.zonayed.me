@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+import Loader from '../components/Loader';
 import IntroArea from '../components/IntroArea';
 import MenuBar from '../components/MenuBar';
 import AboutMe from '../components/AboutMe';
@@ -30,7 +31,7 @@ class Home extends Component {
     const data = this.state.data;
 
     if(!data) {
-      return <h1>Loading</h1>
+      return <Loader text="Welcome To" />
     }
     return (
       <React.Fragment>

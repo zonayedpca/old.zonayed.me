@@ -29,7 +29,7 @@
         background: #fff;
         border-radius: 0;
         border: none;
-        color: #6c5ce7;
+        color: #4d6d9a;
         padding: 10px 15px;
         box-shadow: 0 5px 30px rgba(156, 160, 171, 0.25);
     }
@@ -151,7 +151,7 @@
     }
 
     .navbar {
-        padding: 20px 15px;
+        padding: 7px 15px;
     }
 
     .navbar-light .brand-name {

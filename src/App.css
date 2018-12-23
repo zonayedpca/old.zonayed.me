@@ -56,6 +56,42 @@ strong {
     background: #dfe6e9;
 }
 
+.loading-moment {
+  background-color: #4d6d9a;
+  height: 100%;
+}
+
+.load-head {
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.load-text {
+  color: #fff;
+}
+
+.loader img {
+    height: 80px;
+    margin: 50px 0;
+}
+
+.loader {
+    text-align: center;
+}
+
+.table {
+    display: table;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .intro-area {
     position: relative;
     background: #f0f0f0;

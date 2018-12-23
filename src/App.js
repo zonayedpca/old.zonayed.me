@@ -13,8 +13,8 @@ class App extends Component {
       <div className="App">
         <Router>
           <React.Fragment>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={PortFolio} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/portfolio" component={PortFolio} />
           </React.Fragment>
         </Router>
       </div>

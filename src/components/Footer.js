@@ -20,8 +20,8 @@ const Footer = ({portfolioPage}) => {
                 </div>
                 <div className="col-lg-4 col-md-12">
                     <ul className="copyright list-inline">
-                        <li className="list-inline-item">By Zonayed Ahmed</li>
-                        <li className="list-inline-item"><AnchorLink offset={100} href="#about"><span className="fas fa-arrow-up"></span></AnchorLink></li>
+                        <li className="list-inline-item">By Zonayed Ahmed <span className="text-muted">(Me)</span></li>
+                        <li className="list-inline-item"><AnchorLink offset={100} href={portfolioPage ? "#portfolio" : "#about"}><span className="fas fa-arrow-up"></span></AnchorLink></li>
                     </ul>
                 </div>
             </div>
