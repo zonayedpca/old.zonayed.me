@@ -7,7 +7,7 @@
     "axios": "^0.18.0",
     "coffeescript": "^2.3.1",
     "gapi": "0.0.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "nodemailer": "^4.6.5",
     "react": "^16.4.0",
     "react-anchor-link-smooth-scroll": "^1.0.10",
